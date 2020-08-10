@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.gameboard {
+    margin: 5% 0 0 34%;
+    height: 75vh;
+    width: 32%;
+    border: 1px solid #152238;
+    border-radius: 10px;
+}
+
+.gameboard button {
+    color: white;
+    border: 1px solid #152238;
+    border-radius: 4px;
+}
+
+.gameboard-bet {
+    margin-top: 155px;
+    position: relative;
+    bottom: 45px;
+    left: 47px;
+}
+
+.gameboard>button {
+    margin-left: 18px;
+}
+
+.gameboard-stakes {
+    margin-top: 10%;
+    position: relative;
+    left: 45px;
+    padding: 8px 150px;
+}
+
+.gameboard-unit {
+    margin-top: 20px;
+    position: relative;
+    left: 45px;
+    padding: 8px 137px;
+}
+
+.gameboard-bet_price {
+    margin-top: 20px;
+    position: relative;
+    left: 45px;
+    padding: 8px 150px;
+}
+
+.gameboard-winning_average {
+    margin-top: 20px;
+    position: relative;
+    left: 45px;
+    padding: 8px 147px;
+}
+
+.gameboard>div>button {
+    margin-top: 1%;
+    margin-left: 18px;
+}
+
+.gameboard-mode {
+    position: relative;
+    top: 40px;
+    left: 590px;
+    padding: 8px 80px;
+    background-color: #152238;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+.gameboard-stakesup {
+    margin-bottom: 4px;
+    padding: 10px 50px;
+}
+
+.gameboard-priceup {
+    margin-bottom: 4px;
+    padding: 10px 50px;
+}
+
+.gameboard-stakesdown {
+    margin-bottom: 4px;
+    padding: 10px 52px;
+}
+
+.gameboard-pricedown {
+    padding: 10px 51px;
+}
